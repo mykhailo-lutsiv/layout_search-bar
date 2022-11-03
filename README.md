@@ -1,21 +1,11 @@
-# Template for HTML + CSS tasks
+# Search Bar
 
-> ### This template includes different linters, devDependencies, etc.
-> ### Using node `v14.18.2`
+<hr>
 
-## To start run `npm i`
+### Task:
+**Create search bar using [mockup](https://www.figma.com/file/Nb0Xn6u4ouZIcGD0KghM7O/Search-Bar)**
 
+<hr>
 
-
-### devDependencies
-> LintHTML `v0.9.3` <br/>
-> ESLint `v8.26.0` <br/>
-> StyleLint `v14.14.0` <br/>
-> Parcel `v2.7.0` <br/>
-> Gh-Pages `v4.0.0` <br/>
-
-### Scripts
-> `npm start` to run your project in the browser <br/>
-> `npm run lint` to check your code with linter <br/>
-> `npm run build` to build your project for poduction <br/>
-> `npm run deploy` to publish your project to gh pages <br/>
+Replace `<YOUR_USERNAME>` with your GitHub username <br/>
+[DEMO LINK](https://<YOUR_USERNAME>.github.io/layout_search-bar/)
