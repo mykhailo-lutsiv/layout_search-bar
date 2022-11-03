@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "start chrome http://localhost:1234 && npx parcel src/index.html",
-    "lint": "npx stylelint **/*.css && npx eslint src/**/*.js && npx linthtml 'src/**/*.html'",
+    "lint": "npx linthtml 'src/**/*.html'",
     "build": "rm -rf dist && parcel build src/index.html --no-source-maps",
     "deploy": "npm run build && gh-pages -d dist"
   },
@@ -14,10 +14,8 @@
   "dependencies": {},
   "devDependencies": {
     "@linthtml/linthtml": "^0.9.3",
-    "@wemake-services/stylelint-config-scss": "^1.0.0",
     "eslint": "^8.26.0",
     "gh-pages": "^4.0.0",
-    "parcel": "^2.7.0",
-    "stylelint": "^14.14.0"
+    "parcel": "^2.7.0"
   }
 }
